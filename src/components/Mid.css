@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mid{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(231, 235, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 23%;
+    height: 45%;
+    background-color: rgb(255, 255, 255); 
+    margin-left: 5px;
+    margin-right: 5px;
+    border: none;
+    position: relative;
+    border-radius: 5px;
+}
+
+.img{
+    width: 100%;
+    height: 40%;
+    border-radius: 5px;
+    background-color: rgb(150, 150, 155);
+}
+
+
+
+.flavor{
+    width: 100%;
+    height: 15%;
+    padding-top:7px ;
+    padding-left: 7px;
+    padding-right: 2px;
+   
+    display: flex;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 0.75rem;
+}
+
+.des{
+    width: 100%;
+    height: 15%;
+    position: absolute;
+    top: 135px;
+    font-size: 0.75rem;
+    color: rgb(94, 94, 94);
+    padding-left: 9px;
+}
+
+
+.price{
+    width: 20%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    
+    top: 85px;
+    font-size: 0.85rem;
+    font-weight: 800;
+    color: aliceblue;
+}
+
+.ratings{
+    width: 100%;
+    height: 25%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.ratings button{
+    width: 45%;
+    height: 40%;
+    border: 1.5px solid green;
+    color: green;
+    border-radius: 2px;
+    font-size: 0.65rem;
+    position: absolute;
+    right: 7px;
+    top: 90px;
+}
+
+.fstar{
+    position: relative;
+    top: 2px;
+    left: 3px;
+    color: rgb(187, 187, 0);
+}
+
+.imgin{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
